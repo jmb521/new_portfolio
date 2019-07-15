@@ -13,17 +13,16 @@
   <body>
   <div class="row">
     <div class="col-12">
-      <nav class="navbar sticky-top navbar-expand-lg">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container">
           <div class="col-5">
-            <div class="navbar-brand">Jennifer Pazos - Software Engineer</div>
           </div>
           <div class="col-7">
           
             <ul class="navbar-nav">
               <li class="nav-item active"><%= link_to "Something", "/something", :class => "nav-link" %></li>
               <li class="nav-item"><%= link_to "Home", "/", :class => "nav-link" %></li>
-              <li class="nav-item"><%= link_to "About", "/about", :class => "nav-link"%></li>
+              
             </ul>
           
           </div>
@@ -32,7 +31,7 @@
     </div>
   </div>
     
-        <%= yield %>
+  <%= yield %>
     
   </body>
 </html>
