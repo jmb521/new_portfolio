@@ -25,6 +25,7 @@ div.main {
     -webkit-box-shadow: -1px 7px 18px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 7px 18px 0px rgba(0,0,0,0.75);
     box-shadow: -1px 7px 18px 0px rgba(0,0,0,0.75);
+    
 }
 .me h1{
     color: #FFF;
@@ -41,9 +42,14 @@ div.main {
 }
 .about-me {
     color: white;
-
+    
 }
 
 .main-content {
     margin-top: 250px;
+}
+
+div.about-me p {
+    font-size: 1.2em;
+ 
 }

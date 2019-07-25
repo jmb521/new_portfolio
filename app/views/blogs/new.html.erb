@@ -1,8 +1,9 @@
 
-    <div class="container">
-        <div class="col-6">
+    
+        <div class="col-4">
         </div>
-        <div class="col-3">
+        <div class="col-4">
+        <% if false %>
         <%= form_with(model: @blog) do |f| %>
             <%= f.label :title %>
             <br />
@@ -13,16 +14,19 @@
             <%= f.rich_text_area :content %>
             <br />
             <%= f.submit %>
-            <% end %>
-            </div>
-            <div class="col-3">
-            </div>
-            </div>
-            <div>
-                <p>I forgot</p>
-            </div>
-<div>
-    <p>I forgot</p>
-</div>
+        <% end %>
+        <% end %>
+            <%= form_for(@blog) do |f| %>
+                <%= f.rich_text_area :content %>
+                <%= f.submit %>
+                <% end %>
+
+        </div>
+        <div class="col-4">
+        </div>
+    
+
+           
+
 
     
